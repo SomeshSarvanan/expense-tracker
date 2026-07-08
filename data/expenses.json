@@ -1,0 +1,127 @@
+{
+  "expenses": [
+    {
+      "id": "9589d775-e6f4-441b-ae3e-b10a09035d73",
+      "amount": 1,
+      "category": "Food",
+      "note": "twmp",
+      "date": "2026-07-08",
+      "createdAt": "2026-07-08T12:37:00.821Z",
+      "split": {
+        "withPerson": "vishmati",
+        "theirShare": 1,
+        "status": "received",
+        "receivedAt": "2026-07-08T12:50:39.550Z"
+      }
+    },
+    {
+      "id": "b3960024-aa7b-45d1-b280-61579eb1dd78",
+      "amount": 100,
+      "category": "Food",
+      "note": "coffee me and siri",
+      "date": "2026-07-08",
+      "createdAt": "2026-07-08T12:25:33.594Z",
+      "split": {
+        "withPerson": "siri",
+        "theirShare": 50,
+        "status": "pending"
+      }
+    },
+    {
+      "id": "a76f01d8-ae95-4b2a-bcda-38fe84ff45e8",
+      "amount": 150,
+      "category": "Other",
+      "note": "given to pm",
+      "date": "2026-07-06",
+      "createdAt": "2026-07-08T11:21:30.474Z"
+    },
+    {
+      "id": "42dc6027-0848-4951-a38b-65a903bc10a6",
+      "amount": 266,
+      "category": "Food",
+      "note": "dinner dal kichidi",
+      "date": "2026-07-06",
+      "createdAt": "2026-07-08T11:20:34.817Z"
+    },
+    {
+      "id": "fc2e5922-0759-4f69-8564-0502142ed2a7",
+      "amount": 1000,
+      "category": "Transport",
+      "note": "petrol",
+      "date": "2026-07-04",
+      "createdAt": "2026-07-08T11:16:55.553Z",
+      "split": {
+        "withPerson": "sahithi",
+        "theirShare": 500,
+        "status": "pending"
+      }
+    },
+    {
+      "id": "b0fd8e36-b171-4659-ada6-14573f2a4c54",
+      "amount": 3000,
+      "category": "Transport",
+      "note": "bike for trip",
+      "date": "2026-07-04",
+      "createdAt": "2026-07-08T11:16:06.552Z",
+      "split": {
+        "withPerson": "sahithi",
+        "theirShare": 1500,
+        "status": "pending"
+      }
+    },
+    {
+      "id": "35b60d6f-a539-45fc-a545-dd628af225a0",
+      "amount": 200,
+      "category": "Bills",
+      "note": "mother mobile recharge",
+      "date": "2026-07-08",
+      "createdAt": "2026-07-08T09:47:19.092Z"
+    },
+    {
+      "id": "dd5887fc-8368-4e73-9571-8463e406dd1a",
+      "amount": 100,
+      "category": "Transport",
+      "note": "auto from magarpatta to kharadi",
+      "date": "2026-07-07",
+      "createdAt": "2026-07-08T09:39:05.085Z"
+    },
+    {
+      "id": "255a9641-ecf5-4750-867f-39a9cf02bd65",
+      "amount": 90,
+      "category": "Transport",
+      "note": "auto from kahradi to keshav nagar",
+      "date": "2026-07-08",
+      "createdAt": "2026-07-08T09:38:36.227Z"
+    },
+    {
+      "id": "97216f25-916a-43b7-9d75-67f68a698a3b",
+      "amount": 440,
+      "category": "Food",
+      "note": "dinner",
+      "date": "2026-07-07",
+      "createdAt": "2026-07-08T09:38:04.095Z",
+      "split": {
+        "withPerson": "Sahithi",
+        "theirShare": 220,
+        "status": "pending"
+      }
+    },
+    {
+      "id": "11f710bb-afbb-42c7-b0c9-54c6b77199f4",
+      "amount": 150,
+      "category": "Food",
+      "note": "lunch",
+      "date": "2026-07-07",
+      "createdAt": "2026-07-08T09:37:31.382Z"
+    },
+    {
+      "id": "e5010a71-d8ee-433f-a078-6f86d5f5de44",
+      "amount": 185,
+      "category": "Food",
+      "note": "lunch",
+      "date": "2026-07-08",
+      "createdAt": "2026-07-08T09:35:16.809Z"
+    }
+  ],
+  "currency": "₹"
+}

@@ -1,0 +1,121 @@
+{
+  "app": {
+    "title": "Personal Expenses",
+    "subtitle": "Tracked in ",
+    "footerTotal": " total ",
+    "footerSavedTo": " · saved to "
+  },
+  "tabs": {
+    "expenditure": "Expenditure",
+    "reimbursements": "To receive",
+    "pendingBadge": "{{count}}"
+  },
+  "loading": {
+    "message": "Loading your expenses…"
+  },
+  "error": {
+    "loadTitle": "Could not load data",
+    "loadHint": "Make sure the dev server is running (npm run dev). The API is served by Vite as middleware.",
+    "corruptHint": "The data file may be corrupt. Check {{path}} in a text editor and fix any invalid JSON."
+  },
+  "dataFileMissing": {
+    "title": "Data file not found",
+    "message": "{{path}} does not exist. Any previous expenses have been lost. Adding an entry will create a fresh file.",
+    "dismiss": "Dismiss"
+  },
+  "expenseForm": {
+    "titleAdd": "Add expense",
+    "titleEdit": "Edit expense",
+    "cancel": "Cancel",
+    "labelAmount": "Amount",
+    "placeholderAmount": "0.00",
+    "labelCategory": "Category",
+    "labelDate": "Date",
+    "labelNote": "Note (optional)",
+    "placeholderNote": "e.g. Lunch at cafe",
+    "sectionInvolvement": "Who is this for?",
+    "modeMe": "For me",
+    "modeSplit": "Split 50/50",
+    "modePaidFor": "Paid for them",
+    "labelPerson": "Person name",
+    "placeholderPerson": "e.g. Rahul",
+    "splitPreview": "You: {{myShare}} · {{name}}: {{theirShare}}",
+    "paidForPreview": "{{name}} will owe you the full {{total}}",
+    "submitAdd": "Add expense",
+    "submitEdit": "Save changes",
+    "errorAmount": "Enter a valid amount greater than 0.",
+    "errorDate": "Please pick a date.",
+    "errorPerson": "Please enter the person's name."
+  },
+  "expenseList": {
+    "title": "Expenses",
+    "entryCountAndTotal": "{{count}} {{entryLabel}} · Total {{total}}",
+    "collapsedSummary": "{{scope}} · {{count}} {{entryLabel}} · {{total}}",
+    "toggleExpand": "Show expenses",
+    "toggleCollapse": "Hide expenses",
+    "filterToday": "Today",
+    "filterMonth": "This month",
+    "filterByDay": "By day",
+    "filterAll": "All",
+    "filterAllCategories": "All categories",
+    "filterByCategoryLabel": "Filter by category",
+    "emptyTitle": "No expenses to show.",
+    "emptyHint": "Add your first expense using the form.",
+    "totalLabel": "Total",
+    "totalSub": "{{scope}} · {{count}} {{entryLabel}}",
+    "totalScopeToday": "Today",
+    "totalScopeAllTime": "All time",
+    "itemNoNote": "No note",
+    "itemEditTitle": "Edit",
+    "itemDeleteTitle": "Delete",
+    "itemSplitBadge": "split with {{name}}",
+    "itemPaidForBadge": "paid for {{name}}"
+  },
+  "summary": {
+    "cardToday": "Today",
+    "sectionTitle": "This month",
+    "daysTracked": "{{count}} {{dayLabel}} tracked",
+    "dailyAverage": "Daily average",
+    "byCategory": "By category",
+    "empty": "No expenses this month yet."
+  },
+  "reimbursements": {
+    "title": "To receive",
+    "summaryPending": "Pending",
+    "summaryReceived": "Received this month",
+    "emptyTitle": "No reimbursements yet.",
+    "emptyHint": "When you split an expense, it shows up here.",
+    "sectionPending": "Pending",
+    "sectionReceived": "Received",
+    "sectionReceivedCount": "{{count}} received",
+    "markReceived": "Mark received",
+    "markPending": "Mark pending",
+    "originalAmount": "of {{total}}",
+    "receivedOn": "received {{date}}",
+    "kindSplit": "split",
+    "kindPaidFor": "paid for them",
+    "filterAllPeople": "All people",
+    "filterByPersonLabel": "Filter by person",
+    "filterKindAll": "All",
+    "filterKindSplit": "Split",
+    "filterKindPaidFor": "Paid for",
+    "pendingSectionSummary": "{{count}} pending · {{total}}",
+    "pendingEmptyForFilter": "No pending reimbursements match the current filters."
+  },
+  "toast": {
+    "addedOk": "Expense added.",
+    "updatedOk": "Expense updated.",
+    "deletedOk": "Expense deleted.",
+    "migratedOk": "Migrated {{count}} expenses from browser storage.",
+    "saveFailed": "Save failed.",
+    "loadFailed": "Could not load data from server.",
+    "reimbursementReceived": "Marked as received from {{name}}.",
+    "reimbursementPending": "Reverted to pending."
+  },
+  "units": {
+    "entrySingular": "entry",
+    "entryPlural": "entries",
+    "daySingular": "day",
+    "dayPlural": "days"
+  }
+}
